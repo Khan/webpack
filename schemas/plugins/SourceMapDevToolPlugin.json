@@ -169,6 +169,10 @@
       "description": "Provide a custom public path for the SourceMapping comment",
       "type": "string"
     },
+    "skipExistingFiles": {
+      "description": "Don't compute source maps for bundles that already have source map files on disk",
+      "type": "boolean"
+    },
     "sourceRoot": {
       "description": "Provide a custom value for the 'sourceRoot' property in the SourceMap",
       "type": "string"
