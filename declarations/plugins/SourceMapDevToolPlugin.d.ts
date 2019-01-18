@@ -84,6 +84,10 @@ export interface SourceMapDevToolPluginOptions {
 	 */
 	publicPath?: string;
 	/**
+	 * If set, is passed `sourceMapFile` and `compilation` and should return `true` if we need to generate a new source map file.
+	 */
+	shouldGenerateSourceMapFile?: Function;
+	/**
 	 * Provide a custom value for the 'sourceRoot' property in the SourceMap
 	 */
 	sourceRoot?: string;
