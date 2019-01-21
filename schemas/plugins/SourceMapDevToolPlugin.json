@@ -169,6 +169,11 @@
       "description": "Provide a custom public path for the SourceMapping comment",
       "type": "string"
     },
+    "shouldGenerateSourceMapFile": {
+      "description": "If set, is passed `sourceMapFile` and `compilation` and should return `true` if we need to generate a new source map file.",
+      "instanceof": "Function",
+      "tsType": "Function"
+    },
     "sourceRoot": {
       "description": "Provide a custom value for the 'sourceRoot' property in the SourceMap",
       "type": "string"
