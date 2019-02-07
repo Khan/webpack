@@ -286,6 +286,10 @@ export interface WebpackOptions {
 	 */
 	entry?: Entry;
 	/**
+	 * Exit code to use when handling SIGTERM.  NOTE: This option doesn't work when options is an array.
+	 */
+	exitCode?: number;
+	/**
 	 * Specify dependencies that shouldn't be resolved by webpack, but should become dependencies of the resulting bundle. The kind of the dependency depends on `output.libraryTarget`.
 	 */
 	externals?: Externals;
