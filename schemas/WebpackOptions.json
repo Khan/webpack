@@ -1954,8 +1954,8 @@
         }
       ]
     },
-    "exitCode": {
-      "description": "Exit code to use when handling SIGTERM.  NOTE: This option doesn't work when options is an array.",
+    "exitCodeOnAbort": {
+      "description": "Exit code to use when handling SIGTERM.  NOTE: Only the first value is used when using multiple configurations.",
       "type": "number"
     },
     "externals": {
