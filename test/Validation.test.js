@@ -197,7 +197,7 @@ describe("Validation", () => {
 			},
 			message: [
 				" - configuration has an unknown property 'postcss'. These properties are valid:",
-				"   object { amd?, bail?, cache?, context?, dependencies?, devServer?, devtool?, entry?, externals?, loader?, mode?, module?, " +
+				"   object { amd?, bail?, cache?, context?, dependencies?, devServer?, devtool?, entry?, exitCodeOnAbort?, externals?, loader?, mode?, module?, " +
 					"name?, node?, optimization?, output?, parallelism?, performance?, plugins?, profile?, recordsInputPath?, recordsOutputPath?, " +
 					"recordsPath?, resolve?, resolveLoader?, serve?, stats?, target?, watch?, watchOptions? }",
 				"   For typos: please correct them.",
